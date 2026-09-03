@@ -1,0 +1,20 @@
+[project]
+name = "funtorch"
+version = "0.0.3"
+description = "funtorch"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["funpypi", "tqdm"]
+
+[[project.authors]]
+name = "farfarfun"
+email = "farfarfun@qq.com"
+
+[project.urls]
+Organization = "https://github.com/farfarfun"
+Repository = "https://github.com/farfarfun/funtorch"
+Releases = "https://github.com/farfarfun/funtorch/releases"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
