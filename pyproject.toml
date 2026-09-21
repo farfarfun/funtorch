@@ -1,10 +1,12 @@
 [project]
 name = "funtorch"
 version = "0.0.3"
-description = "funtorch"
+description = "面向 PyTorch 工具链的轻量 Python 包，提供可复现的版本化发布基础。"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["funpypi", "tqdm"]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["funpypi>=0.0.1", "tqdm>=4.66"]
 
 [[project.authors]]
 name = "farfarfun"
@@ -18,3 +20,6 @@ Releases = "https://github.com/farfarfun/funtorch/releases"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
