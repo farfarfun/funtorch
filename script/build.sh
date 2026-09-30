@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-uv build "$@"
+exec uv run funbuild build "$@"

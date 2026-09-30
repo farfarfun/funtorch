@@ -19,8 +19,16 @@ print(funtorch.__version__)
 ## 开发
 
 ```bash
+uv run ruff check --fix .
+uv run ruff format .
 uv run pytest
-uv build
+uv run funbuild install
+```
+
+发布统一通过 `funbuild` 的完整流水线：
+
+```bash
+uv run funbuild build
 ```
 
 ---
