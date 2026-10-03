@@ -13,6 +13,7 @@ name = "farfarfun"
 email = "farfarfun@qq.com"
 
 [project.urls]
+Homepage = "https://pypi.org/project/funtorch/"
 Organization = "https://github.com/farfarfun"
 Repository = "https://github.com/farfarfun/funtorch"
 Releases = "https://github.com/farfarfun/funtorch/releases"

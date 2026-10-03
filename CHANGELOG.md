@@ -1,5 +1,12 @@
 # 更新日志
 
+## 未发布
+
+### 新增
+
+- `pyproject.toml` 的 `[project.urls]` 补充 `Homepage` 指向 PyPI 项目主页，并同步设置
+  GitHub 仓库 homepage。
+
 ## 0.0.3
 
 ### 修复
