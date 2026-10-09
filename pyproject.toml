@@ -1,6 +1,6 @@
 [project]
 name = "funtorch"
-version = "0.0.3"
+version = "0.0.4"
 description = "面向 PyTorch 工具链的轻量 Python 包，提供可复现的版本化发布基础。"
 readme = "README.md"
 requires-python = ">=3.10"
